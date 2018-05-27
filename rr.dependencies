@@ -1,0 +1,22 @@
+[
+ {
+   "repository" : "Adesh15/device_xiaomi_msm8953-common",
+   "target_path": "device/xiaomi/msm8953-common",
+   "branch"     : "oreo"
+ },
+ {
+   "repository" : "Adesh15/android_kernel_xiaomi_msm8953",
+   "target_path": "kernel/xiaomi/msm8953",
+   "branch"     : "oreo-mr1"
+ },
+ {
+   "repository" : "LineageOS/android_packages_resources_devicesettings",
+   "target_path": "packages/resources/devicesettings",
+   "branch"     : "lineage-15.1"
+ },
+ {
+   "repository" : "TheMuppets/proprietary_vendor_xiaomi",
+   "target_path": "vendor/xiaomi",
+   "branch"     : "lineage-15.1"
+ }
+]
