@@ -495,3 +495,7 @@ service vendor.power_off_alarm /vendor/bin/power_off_alarm
 
 on property:dev.bootcomplete=1
     setprop sys.io.scheduler "bfq"
+
+on property:init.svc.qcom-post-boot=stopped
+    # Set min gpu freq as 320mhz
+    write /sys/class/kgsl/kgsl-3d0/devfreq/min_freq 320000000
