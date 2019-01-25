@@ -151,6 +151,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     XiaomiParts
 
+# AdvancedControls
+PRODUCT_PACKAGES += \
+    AdvancedControls
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
