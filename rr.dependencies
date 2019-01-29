@@ -3,18 +3,12 @@
     "remote": "github",
     "repository": "AliHasan7671/proprietary_vendor_xiaomi",
     "target_path": "vendor/xiaomi",
-    "branch": "pie"
+    "branch": "lineage-16.0"
   },
   {
     "remote": "github",
     "repository": "AliHasan7671/android_kernel_xiaomi_msm8953",
     "target_path": "kernel/xiaomi/msm8953",
-    "branch": "pie"
-  },
-  {
-    "remote": "github",
-    "repository": "LineageOS/android_packages_resources_devicesettings",
-    "target_path": "packages/resources/devicesettings",
     "branch": "lineage-16.0"
   }
 ]
