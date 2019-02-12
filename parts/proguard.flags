@@ -8,6 +8,3 @@
   *;
 }
 
--keep class org.lineageos.settings.doze.* {
-  *;
-}
