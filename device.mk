@@ -149,11 +149,9 @@ PRODUCT_PACKAGES += \
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    XiaomiDoze
-
-# AdvancedControls
-PRODUCT_PACKAGES += \
-    AdvancedControls
+    XiaomiDoze \
+    AdvancedControls \
+    XiaomiDirac
 
 # DRM
 PRODUCT_PACKAGES += \
