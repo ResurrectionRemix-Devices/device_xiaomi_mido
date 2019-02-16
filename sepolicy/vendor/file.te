@@ -23,3 +23,4 @@ type proc_touchpanel, fs_type, sysfs_type, proc_type;
 # XiaomiParts LED
 type sysfs_torch, fs_type, sysfs_type;
 
+type sysfs_msm_subsys, sysfs_type, fs_type;

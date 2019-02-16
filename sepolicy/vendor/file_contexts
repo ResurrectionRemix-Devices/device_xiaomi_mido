@@ -51,3 +51,6 @@
 /sys/devices/soc/qpnp-flash-led-25/leds/led:torch_1/max_brightness          u:object_r:sysfs_torch:s0
 /sys/class/timed_output/vibrator/vtg_level            u:object_r:sysfs_vibrator:s0
 /sys/devices/platform/kcal_ctrl.0/kcal              u:object_r:sysfs:s0
+
+#PowerHal
+/(vendor|system/vendor)/bin/hw/android\.hardware\.power@1\.2-service\.msm8953-libperfmgr         u:object_r:hal_power_default_exec:s0
