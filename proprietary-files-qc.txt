@@ -75,6 +75,12 @@ vendor/firmware/cpp_firmware_v1_10_0.fw|cf9458601aa4bbe9c57acfc1c7d0f158386ace9f
 vendor/firmware/cpp_firmware_v1_5_2.fw|58dd7f7c09dbb62bc6f334a8885064b292610675
 vendor/firmware/cpp_firmware_v1_1_6.fw|6b2c9fe0a43a9ce86a921e18faffe4d0a35746ee
 
+# AptX - from Nokia/Onyx_00WW/B2N_sprout:9/PPR1.180610.011/00WW_3_39B
+vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so|03b56d0beb64409efcac531da384f84d10dd5ed6
+vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so|02c17b0b77c14e2e69039b5fa9d74fbf4def7c16
+vendor/lib64/libaptXHD_encoder.so|c4ad4d6d7615f7df3ea1a4be5c6dae8a8c8ee8b1
+vendor/lib64/libaptX_encoder.so|22f5749edb5099526788c22708099a7791dd837f
+
 # Charger - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
 vendor/bin/hvdcp_opti|7ee82dd264c7c349fb498111a61d5009ae9f0da2
 
