@@ -151,7 +151,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     XiaomiDoze \
     DeviceSettings \
-    XiaomiDirac
+    XiaomiDirac \
+    AndroidClock
 
 # DRM
 PRODUCT_PACKAGES += \
