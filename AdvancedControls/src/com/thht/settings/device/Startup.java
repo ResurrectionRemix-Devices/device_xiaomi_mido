@@ -36,7 +36,6 @@ public class Startup extends BroadcastReceiver {
 
         Boolean shouldRestore = PreferenceManager.getDefaultSharedPreferences(context).getBoolean(StaticMembers.KEY_RESTORE_ON_BOOT, false);
         final Boolean shouldRestorePreset = PreferenceManager.getDefaultSharedPreferences(context).getBoolean(StaticMembers.KEY_KCAL_PRESETS, false);
-        final Boolean shouldFixSlowWakeup = PreferenceManager.getDefaultSharedPreferences(context).getBoolean(StaticMembers.KEY_SLOW_WAKEUP_FIX, false);
         Log.e(TAG, Boolean.toString(shouldRestore));
         if (bootintent.getAction().equals("android.intent.action.BOOT_COMPLETED") && shouldRestore) {
             new Handler().postDelayed(new Runnable() {
@@ -44,7 +43,6 @@ public class Startup extends BroadcastReceiver {
                 public void run() {
                     Intent in = new Intent(context, RestoreService.class);
                     in.putExtra(StaticMembers.KEY_KCAL_PRESETS, shouldRestorePreset);
-                    in.putExtra(StaticMembers.KEY_SLOW_WAKEUP_FIX, shouldFixSlowWakeup);
                     context.startService(in);
                 }
             }, 0);

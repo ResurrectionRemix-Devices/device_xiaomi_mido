@@ -37,10 +37,6 @@ public class RestoreService extends IntentService {
                 StaticMembers.KEY_YELLOW_TORCH_BRIGHTNESS,
                 String.valueOf(StaticMembers.DEFAULT_VALUE_TORCH_YELLOW));
 
-        // restore wakeup fix
-        Boolean shouldFixSlowWakeUp = intent.getExtras().getBoolean(StaticMembers.KEY_SLOW_WAKEUP_FIX, false);
-        CustomPreferenceFragment.setSlowWakeupFix(shouldFixSlowWakeUp);
-
         // restore kcal
         Boolean shouldRestorePreset = intent.getExtras().getBoolean(StaticMembers.KEY_KCAL_PRESETS, false);
 

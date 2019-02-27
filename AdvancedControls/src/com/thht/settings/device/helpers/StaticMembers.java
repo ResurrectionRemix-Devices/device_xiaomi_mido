@@ -34,11 +34,7 @@ public class StaticMembers {
     // misc
     public static final String KEY_CATEGORY_MISC = "key_category_misc";
     public static final String KEY_RESTORE_ON_BOOT = "key_restore_on_boot";
-    public static final String KEY_SLOW_WAKEUP_FIX = "key_slow_wakeup_fix";
 
-    /* Name of kernel nodes */
-    // wakeup hack
-    public static final String FILE_LEVEL_WAKEUP = "/sys/devices/soc/qpnp-smbcharger-18/power_supply/battery/subsystem/bms/hi_power";
     // kcal controls
     public static final String FILE_LEVEL_KCAL_RGB = "/sys/devices/platform/kcal_ctrl.0/kcal";
     public static final String FILE_LEVEL_KCAL_MIN = "/sys/devices/platform/kcal_ctrl.0/kcal_min";

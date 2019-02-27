@@ -13,8 +13,8 @@
      limitations under the License.
 -->
 <resources>
-    <string name="app_name">AdvancedControls</string>
-    <string name="advanced_settings">AdvancedControls</string>
+    <string name="app_name">Device Settings</string>
+    <string name="device_settings">Device Settings</string>
     <string name="category_vibrator">Vibrator</string>
     <string name="vib_strength_title_head">Strength</string>
     <string name="vib_strength_summary_head">Define the strength of the vibrator</string>
@@ -40,12 +40,7 @@
     <string name="category_kcal_presets">Kcal Presets</string>
     <string name="kcal_presets_title">Use kcal preset values</string>
     <string name="presets_list_title">Choose kcal preset</string>
-    <string name="slow_wakeup_fix_title">Enable hack to improve wakeup speed</string>
-    <string name="slow_wakeup_fix_summary">Experimental, makes UI unresponsive.</string>
-    <string name="category_sound">Sound</string>
-    <string name="category_misc">Misc</string>
-    <string name="dirac_title">Dirac Settings</string>
-    <string name="dirac_summary">Launch dirac configuration options</string>
+    <string name="category_misc">Miscellaneous</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
