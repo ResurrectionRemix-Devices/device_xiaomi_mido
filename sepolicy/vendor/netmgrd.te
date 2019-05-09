@@ -1,1 +1,4 @@
 set_prop(netmgrd, vendor_xlat_prop)
+allow netmgrd netutils_wrapper:process noatsecure;
+allow netmgrd kernel:system module_request;
+allow netmgrd sysfs:file  r_file_perms;

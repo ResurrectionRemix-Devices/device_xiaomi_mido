@@ -1,0 +1,2 @@
+allow toolbox wifi_vendor_data_file:dir {read getattr};
+allow toolbox file_contexts_file:file   r_file_perms;

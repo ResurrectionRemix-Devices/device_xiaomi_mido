@@ -1,0 +1,2 @@
+allow hal_bluetooth_default wifi_data_file:dir {search open read write};
+allow hal_bluetooth_default sysfs:file {open read write};

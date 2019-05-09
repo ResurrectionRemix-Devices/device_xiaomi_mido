@@ -1,0 +1,2 @@
+allow hal_dpmQmiMgr sysfs:file {open read write};
+allow cnd sysfs:file  {open read write};
